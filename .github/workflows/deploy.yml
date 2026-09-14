@@ -38,7 +38,7 @@ jobs:
         run: npx quartz plugin install
 
       - name: Build Quartz
-        run: run: npx quartz build
+        run: npx quartz build
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
